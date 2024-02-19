@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <title>registration forms</title> <!--defines a title in the browser toolbar/ provides a title for the page when it is added to favorites/ displays a title for the page in search-engine results-->
+        
+        <!--this is for crawling.  used by browsers, search engines, and other web services. What to be shown on the search page.--> 
+        <meta name="description" content="registration forms"> 
+        <!--<meta name="description" content="Free Web tutorials"> -->
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- in a professional setting never use get for forms like this -->
+        <form method="get">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="c_name" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="c_password" required></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="c_email" required></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="tel" name="c_tel" required></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date" name="c_date" required></td>
+                </tr>
+                <tr>
+                    <!--
+                        how to create a radio button selection pick
+                    -->
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male"> Male <br>
+                        <input type="radio" name="gender" value="Female"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <!-- how to create a select drop down -->
+                    <td>Country of Origin</td>
+                    <td>
+                        <select name="c_country" required>
+                            <option value="United States">United States</option>
+                            <option value="India">India</option>
+                            <option value="China">China</option>
+                            <option value="Canada">Canada</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="Submit" name="c_login" value="Submit" required></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+
+</html>
