@@ -1,0 +1,31 @@
+div{
+    margin: 25px;
+    padding: 15px;
+    border: 2px solid orange;
+    background-color: aqua;
+    color: white;
+    width: 450px;
+    height: auto;
+}
+
+#box{
+    margin: 25px;
+    padding: 15px;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    width: 450px;
+    height: auto;
+}
+
+.p1{
+    color: blue;
+}
+
+.p2{
+    color: chartreuse;
+}
+
+.p3{
+    color: yellow;
+}
